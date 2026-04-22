@@ -1,0 +1,149 @@
+{
+  "brand": "AG1",
+  "brand_aliases": ["Athletic Greens", "AG1 Next Gen"],
+  "ground_truth_compiled": "2026-04-22",
+  "notes": "Verified against multiple sources including AG1 official site, Wikipedia, NZ Herald, and industry press as of April 2026. Update before each Judas run.",
+  "facts": {
+    "founding_year": {
+      "value": 2010,
+      "type": "integer",
+      "acceptable_variance": ["2009"],
+      "variance_reason": "Some sources cite 2009 as initial founding, 2010 as official launch. Mark 2009 as outdated, anything else as false.",
+      "sources": ["https://en.wikipedia.org/wiki/AG1_(company)", "https://drinkag1.com"]
+    },
+    "founder": {
+      "value": "Chris Ashenden",
+      "type": "string",
+      "acceptable_variance": [],
+      "sources": ["https://en.wikipedia.org/wiki/AG1_(company)"]
+    },
+    "current_ceo": {
+      "value": "Kat Cole",
+      "type": "string",
+      "acceptable_variance": [],
+      "outdated_values": ["Chris Ashenden"],
+      "outdated_reason": "Chris Ashenden was CEO until October 2024, then resigned amid scrutiny. Kat Cole succeeded him.",
+      "sources": ["https://athletechnews.com/ag1-makes-ceo-change-as-founder-chris-ashenden-steps-down/", "https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/"]
+    },
+    "ceo_change_date": {
+      "value": "October 2024",
+      "type": "string",
+      "acceptable_variance": ["2024"],
+      "sources": ["https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/"]
+    },
+    "former_name": {
+      "value": "Athletic Greens",
+      "type": "string",
+      "rebrand_year": 2021,
+      "acceptable_variance": [],
+      "sources": ["https://en.wikipedia.org/wiki/AG1_(company)"]
+    },
+    "monthly_subscription_price_usd": {
+      "value": 79,
+      "type": "integer",
+      "currency": "USD",
+      "acceptable_variance": [],
+      "outdated_values": [99, 89],
+      "outdated_reason": "AG1 has had price changes over the years. $99 is the one-time purchase price, not subscription. Older subscription prices may have been different.",
+      "sources": ["https://drinkag1.com/", "https://letsliveitup.com/blogs/supergreens/ag1-review"]
+    },
+    "monthly_subscription_price_eur": {
+      "value": 87,
+      "type": "integer",
+      "currency": "EUR",
+      "acceptable_variance": [],
+      "sources": ["https://drinkag1.com/en-eu/is-ag1-worth-it-ag1-price"]
+    },
+    "one_time_purchase_price_usd": {
+      "value": 99,
+      "type": "integer",
+      "currency": "USD",
+      "acceptable_variance": [],
+      "sources": ["https://drinkag1.com/", "https://www.topnutritioncoaching.com/blog/ag1-review"]
+    },
+    "ingredient_count": {
+      "value": 83,
+      "type": "integer",
+      "acceptable_variance": [],
+      "outdated_values": [75],
+      "outdated_reason": "AG1 reformulated to AG1 Next Gen in January 2025, increasing ingredient count from 75 to 83. Many sources still cite 75 ingredients.",
+      "sources": ["https://drinkag1.com/", "https://letsliveitup.com/blogs/supergreens/ag1-review"]
+    },
+    "current_formula_name": {
+      "value": "AG1 Next Gen",
+      "type": "string",
+      "released": "January 2025",
+      "acceptable_variance": ["AG1"],
+      "outdated_values": ["AG1 Original", "Athletic Greens Ultimate Daily"],
+      "sources": ["https://drinkag1.com/"]
+    },
+    "headquarters": {
+      "value": "Fully remote, no formal headquarters",
+      "type": "string",
+      "acceptable_variance": ["remote", "no headquarters", "distributed"],
+      "false_values_common": ["Carson City, Nevada", "New York", "Los Angeles", "San Francisco", "Auckland", "Wilmington, Delaware"],
+      "false_reason": "AG1 has been fully remote from day one. The company is registered in the US and Cayman Islands but has no physical HQ.",
+      "sources": ["https://www.headwestguide.com/athletic-greens", "https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/"]
+    },
+    "company_registration": {
+      "value": "United States and Cayman Islands",
+      "type": "string",
+      "acceptable_variance": ["US", "USA", "Cayman Islands"],
+      "sources": ["https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/"]
+    },
+    "valuation_usd": {
+      "value": "1.2 billion",
+      "type": "string",
+      "valuation_date": "2022",
+      "acceptable_variance": ["$1.2B", "$1.2 billion", "1.2B"],
+      "sources": ["https://athletechnews.com/ag1-makes-ceo-change-as-founder-chris-ashenden-steps-down/"]
+    },
+    "total_funding_raised_usd": {
+      "value": "115 million",
+      "type": "string",
+      "funding_date": "January 2022",
+      "lead_investor": "Alpha Wave Global",
+      "acceptable_variance": ["$115M", "115M", "$115 million"],
+      "sources": ["https://www.headwestguide.com/athletic-greens", "https://www.patigroup.com/p/the-ag1-phenomenon-how-a-single-sku"]
+    },
+    "founder_nationality": {
+      "value": "New Zealand",
+      "type": "string",
+      "acceptable_variance": ["New Zealander", "Kiwi", "NZ"],
+      "sources": ["https://en.wikipedia.org/wiki/AG1_(company)"]
+    },
+    "primary_certification": {
+      "value": "NSF Certified for Sport",
+      "type": "string",
+      "acceptable_variance": ["NSF International", "NSF"],
+      "additional_certifications": ["Informed Sport", "Cologne List"],
+      "sources": ["https://en.wikipedia.org/wiki/AG1_(company)", "https://drinkag1.com/en-eu/is-ag1-worth-it-ag1-price"]
+    },
+    "money_back_guarantee_days": {
+      "value": 90,
+      "type": "integer",
+      "acceptable_variance": [30],
+      "variance_reason": "US has 90-day guarantee, EU has 30-day guarantee. Both can be correct depending on region.",
+      "sources": ["https://drinkag1.com/", "https://drinkag1.com/en-eu/is-ag1-worth-it-ag1-price"]
+    },
+    "main_competitors": {
+      "value": ["Huel", "Ka'Chava", "Live It Up Super Greens", "Bloom Greens", "Organifi", "Amazing Grass"],
+      "type": "list",
+      "acceptable_variance": [],
+      "sources": ["https://www.topnutritioncoaching.com/blog/ag1-review", "https://letsliveitup.com/blogs/supergreens/ag1-review"]
+    },
+    "notable_endorsers": {
+      "value": ["Tim Ferriss", "Andrew Huberman", "Joe Rogan", "Lex Fridman", "Lewis Hamilton", "Cindy Crawford", "Hugh Jackman", "Steve Aoki", "Peter Attia"],
+      "type": "list",
+      "note": "Tim Ferriss was the earliest notable endorser and later became an investor. Andrew Huberman is the most prominent ongoing partnership.",
+      "sources": ["https://en.wikipedia.org/wiki/AG1_(company)"]
+    }
+  },
+  "high_severity_facts": [
+    "current_ceo",
+    "founder",
+    "ingredient_count",
+    "monthly_subscription_price_usd"
+  ],
+  "high_severity_reason": "These facts directly affect customer purchase decisions, sales conversations, or brand reputation. Wrong info here is most damaging."
+}
