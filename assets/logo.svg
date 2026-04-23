@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" role="img" aria-label="Judas Spartan helmet logo">
+  <title>Judas</title>
+  <!-- Horsehair plume -->
+  <path d="M10 17 C 16 6, 26 3, 32 3 C 38 3, 48 6, 54 17 C 46 14, 38 13, 32 13 C 26 13, 18 14, 10 17 Z"/>
+  <!-- Helmet bowl -->
+  <path d="M12 17 L 12 38 C 12 42, 15 45, 18 46 L 22 47 L 22 55 C 22 58, 24 60, 26 60 L 38 60 C 40 60, 42 58, 42 55 L 42 47 L 46 46 C 49 45, 52 42, 52 38 L 52 17 Z"/>
+  <!-- Eye slit and nose guard, cut via second color overlay -->
+  <path d="M18 25 L 29 25 L 29 29 L 35 29 L 35 25 L 46 25 L 46 30 L 35 30 L 35 44 L 29 44 L 29 30 L 18 30 Z" fill="#0d4f3c"/>
+</svg>
