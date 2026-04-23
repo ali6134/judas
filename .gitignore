@@ -3,5 +3,6 @@ node_modules/
 .DS_Store
 dashboard/dist/
 dashboard/.vite/
+dashboard/*.tsbuildinfo
 *.log
 
