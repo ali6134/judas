@@ -1,3 +1,7 @@
 .env
 node_modules/
 .DS_Store
+dashboard/dist/
+dashboard/.vite/
+*.log
+

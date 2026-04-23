@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+@import "@fontsource-variable/fraunces/wght.css";
+@import "@fontsource-variable/fraunces/wght-italic.css";
+@import "@fontsource-variable/instrument-sans";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/600.css";
+
+@theme {
+  /* ───── STRUCTURE ───── */
+  --color-ink-950: #040b08;
+  --color-ink-900: #071912;
+  --color-ink-800: #0f1f18;
+  --color-ink-700: #24302a;
+  --color-ink-500: #566960;
+  --color-ink-300: #8b9890;
+
+  --color-forest-950: #051c15;
+  --color-forest-900: #0a2a20;
+  --color-forest-800: #103629;
+  --color-forest-700: #164d3a;
+  --color-forest-600: #1f6148;
+  --color-forest-500: #2d7a5f;
+
+  /* ───── PAPER ───── */
+  --color-parchment-50: #faf6eb;
+  --color-parchment-100: #f3ecd8;
+  --color-parchment-200: #e6dcc0;
+  --color-parchment-300: #d5c79d;
+  --color-parchment-400: #b9a876;
+
+  /* ───── BRASS ───── */
+  --color-brass-200: #f0dca8;
+  --color-brass-300: #e8cf8a;
+  --color-brass-400: #d9ba78;
+  --color-brass-500: #c8a968;
+  --color-brass-600: #a88946;
+  --color-brass-700: #8b6f2f;
+  --color-brass-800: #5e4a1d;
+
+  /* ───── VERDICTS ───── */
+  --color-verdict-correct: #2d7a5f;
+  --color-verdict-outdated: #b8913a;
+  --color-verdict-false: #a4271d;
+  --color-verdict-hallucinated: #5a2375;
+  --color-verdict-unverifiable: #6b6356;
+
+  /* ───── TYPE ───── */
+  --font-display: "Fraunces Variable", ui-serif, Georgia, "Times New Roman", serif;
+  --font-body: "Instrument Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* ───── RESET + BASE ───── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background: var(--color-ink-950);
+  color: var(--color-parchment-50);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "ss02";
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+a { color: inherit; text-decoration: none; }
+
+::selection {
+  background: color-mix(in oklab, var(--color-brass-500) 40%, transparent);
+  color: var(--color-ink-950);
+}
+
+/* ───── DISPLAY TYPE UTILITIES ───── */
+.font-display { font-family: var(--font-display); font-optical-sizing: auto; }
+.font-body    { font-family: var(--font-body); }
+.font-mono    { font-family: var(--font-mono); }
+
+.display-jumbo {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: "SOFT" 30, "opsz" 144;
+  letter-spacing: -0.025em;
+  line-height: 0.92;
+}
+.display-soft {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-variation-settings: "SOFT" 90, "opsz" 100;
+  letter-spacing: -0.015em;
+}
+.display-small-caps {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-variation-settings: "SOFT" 40, "opsz" 12;
+  font-feature-settings: "smcp";
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-brass-500);
+}
+.eyebrow-muted {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-ink-500);
+}
+
+.numeral {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 0, "opsz" 144;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "ss01";
+}
+
+/* ───── PAPER TEXTURE ───── */
+.paper-forest {
+  background-color: var(--color-forest-900);
+  background-image:
+    radial-gradient(at 18% 4%, color-mix(in oklab, var(--color-forest-700) 50%, transparent) 0%, transparent 55%),
+    radial-gradient(at 82% 88%, color-mix(in oklab, var(--color-ink-950) 60%, transparent) 0%, transparent 60%);
+}
+
+.paper-parchment {
+  background-color: var(--color-parchment-50);
+  background-image:
+    radial-gradient(at 0% 0%, color-mix(in oklab, var(--color-parchment-200) 60%, transparent) 0%, transparent 45%),
+    radial-gradient(at 100% 100%, color-mix(in oklab, var(--color-parchment-300) 35%, transparent) 0%, transparent 45%);
+}
+
+/* ───── GOLD RULES ───── */
+.rule-brass {
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--color-brass-600) 15%,
+    var(--color-brass-400) 50%,
+    var(--color-brass-600) 85%,
+    transparent 100%);
+  height: 1px;
+}
+.rule-brass-solid {
+  background: var(--color-brass-600);
+  height: 1px;
+}
+.rule-vertical-brass {
+  background: linear-gradient(180deg,
+    transparent 0%,
+    var(--color-brass-600) 15%,
+    var(--color-brass-400) 50%,
+    var(--color-brass-600) 85%,
+    transparent 100%);
+  width: 1px;
+}
+
+/* ───── VERDICT COLOR UTILITIES ───── */
+.bg-v-correct { background-color: var(--color-verdict-correct); }
+.bg-v-outdated { background-color: var(--color-verdict-outdated); }
+.bg-v-false { background-color: var(--color-verdict-false); }
+.bg-v-hallucinated { background-color: var(--color-verdict-hallucinated); }
+.bg-v-unverifiable { background-color: var(--color-verdict-unverifiable); }
+.text-v-correct { color: var(--color-verdict-correct); }
+.text-v-outdated { color: var(--color-verdict-outdated); }
+.text-v-false { color: var(--color-verdict-false); }
+.text-v-hallucinated { color: var(--color-verdict-hallucinated); }
+.text-v-unverifiable { color: var(--color-verdict-unverifiable); }
+
+.ring-v-correct { box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-verdict-correct) 60%, black); }
+.ring-v-outdated { box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-verdict-outdated) 60%, black); }
+.ring-v-false { box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-verdict-false) 60%, black); }
+.ring-v-hallucinated { box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-verdict-hallucinated) 60%, black); }
+.ring-v-unverifiable { box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-verdict-unverifiable) 60%, black); }
+
+/* ───── FOCUS ───── */
+:focus-visible {
+  outline: 2px solid var(--color-brass-400);
+  outline-offset: 2px;
+}
+
+/* ───── ENTRY ANIMATIONS (CSS-native, render-reliable) ───── */
+@keyframes judas-fade-up {
+  from { opacity: 0; transform: translate3d(0, 20px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes judas-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes judas-rise-jumbo {
+  from { opacity: 0; transform: translate3d(0, 32px, 0); filter: blur(8px); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); filter: blur(0); }
+}
+@keyframes judas-helmet-enter {
+  from { opacity: 0; transform: translate3d(-20px, 0, 0) rotate(-6deg); }
+  to { opacity: 1; transform: translate3d(0, 0, 0) rotate(0deg); }
+}
+
+.anim-fade-up    { animation: judas-fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.anim-fade-in    { animation: judas-fade-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.anim-rise-jumbo { animation: judas-rise-jumbo 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.anim-helmet     { animation: judas-helmet-enter 0.8s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up, .anim-fade-in, .anim-rise-jumbo, .anim-helmet {
+    animation: none;
+  }
+}
+
+/* ───── SCROLLBAR ───── */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: var(--color-ink-900); }
+*::-webkit-scrollbar-thumb {
+  background: var(--color-forest-700);
+  border-radius: 0;
+  border: 2px solid var(--color-ink-900);
+}
