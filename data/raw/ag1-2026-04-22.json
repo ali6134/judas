@@ -1,0 +1,1960 @@
+{
+  "brand": "AG1",
+  "pulled_at": "2026-04-23",
+  "source": "Peec AI MCP",
+  "schema_version": 1,
+  "prompts_tracked": 13,
+  "models_tracked": [
+    "chatgpt",
+    "perplexity",
+    "google-ai-overview"
+  ],
+  "expected_entries": 39,
+  "total_entries": 38,
+  "gaps": [
+    {
+      "prompt": "When was AG1 founded?",
+      "model": "google-ai-overview",
+      "reason": "no chat available in Peec"
+    }
+  ],
+  "responses": [
+    {
+      "prompt": "Where is AG1 headquartered?",
+      "prompt_id": "pr_14403603-1d26-42b2-9bc7-a3e25cee7c4a",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1, the popular nutritional supplement brand by **Athletic Greens**, is headquartered in **Auckland, New Zealand**.  \n\nIf you want, I can also give a quick overview of their global operations and presence.",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_cd998b91-b680-4b18-b461-a7e63474c353",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Where is AG1 headquartered?",
+      "prompt_id": "pr_14403603-1d26-42b2-9bc7-a3e25cee7c4a",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "**AG1 is headquartered in Carson City, Nevada.**\n\nThis serves as the company's main administrative center at 3064 Silver Sage Drive, Suite 150. Multiple sources, including company profiles and directories, confirm this location in the United States as the primary headquarters.",
+      "cited_sources": [
+        {
+          "url": "https://www.clay.com/dossier/ag1-headquarters-office-locations",
+          "title": null
+        },
+        {
+          "url": "https://www.signalhire.com/companies/athletic-greens",
+          "title": null
+        },
+        {
+          "url": "https://www.zoominfo.com/c/drink-ag1/5000001193",
+          "title": null
+        },
+        {
+          "url": "https://open.winmo.com/open/company/health-care-vitamins-and-nutritional-supplements/nv/carson-city/athletic-greens/55497",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/privacy",
+          "title": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_(company)",
+          "title": null
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/07996306",
+          "title": null
+        },
+        {
+          "url": "https://sd.linkedin.com/company/drink-ag1",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-nz/about-us",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=O5xazoeEvys",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_602c04d2-5229-4eda-8b7b-f3f95ed1e147",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "Where is AG1 headquartered?"
+      ]
+    },
+    {
+      "prompt": "Where is AG1 headquartered?",
+      "prompt_id": "pr_14403603-1d26-42b2-9bc7-a3e25cee7c4a",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) is primarily headquartered in Carson City, Nevada. The company operates its main corporate office at 3064 Silver Sage Dr, Suite 150, Carson City, NV 89701, United States.\n\n- Headquarters Address: 3064 Silver Sage Dr, Suite 150, Carson City, Nevada\n\n- Company Name: Athletic Greens USA Inc.\n\n- Context: The company is a privately held firm specializing in health, wellness, and fitness.",
+      "cited_sources": [
+        {
+          "url": "https://www.clay.com/dossier/ag1-headquarters-office-locations",
+          "title": null
+        },
+        {
+          "url": "https://www.zoominfo.com/pic/ag1-usa-inc/5000001193",
+          "title": null
+        },
+        {
+          "url": "https://bitscale.ai/directory/ag1",
+          "title": null
+        },
+        {
+          "url": "https://craft.co/ag1-usa/locations",
+          "title": null
+        },
+        {
+          "url": "https://forgeglobal.com/athletic-greens_stock/",
+          "title": null
+        },
+        {
+          "url": "https://www.mapquest.com/us/nevada/athletic-greens-usa-inc-424707585",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_8d495534-602e-4719-afff-89730c5402dd",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Is AG1 the same company as Athletic Greens?",
+      "prompt_id": "pr_30864f0e-5afd-4e8a-8239-e1f9ddd80649",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "Yes, **AG1** is the same product as **Athletic Greens**. The company rebranded from **Athletic Greens** to **AG1** in 2022. The product itself didn't change, but they wanted a more streamlined, modern name to reflect their broader approach to health and wellness. So when you see AG1, it's just the updated brand name for the same all-in-one greens supplement that was originally marketed as Athletic Greens.",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_2f8f8b97-0893-4cfd-8cc2-b7c63d01549b",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Is AG1 the same company as Athletic Greens?",
+      "prompt_id": "pr_30864f0e-5afd-4e8a-8239-e1f9ddd80649",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "**Yes, AG1 is the same company as Athletic Greens.** Originally founded in 2010 as Athletic Greens, the company rebranded to AG1 in December 2021 to better reflect its comprehensive nutritional supplement beyond just athletes. The product—often called Athletic Greens Ultimate Daily—remains identical, produced by the same team under the AG1 name.)\n\n## Company Evolution\n\nAthletic Greens shifted its branding while keeping the core business intact, now operating via drinkag1.com (formerly athleticgreens.com). Leadership changes include Kat Cole becoming CEO in 2024 after founder Chris Ashenden's resignation.)\n\n## Product Continuity\n\nThe flagship greens powder formula has stayed the same through the rebrand, combining vitamins, minerals, prebiotics, and superfoods without artificial sweeteners. It's still marketed for overall health support.)",
+      "cited_sources": [
+        {
+          "url": "https://www.wikiwand.com/en/articles/Athletic_Greens",
+          "title": null
+        },
+        {
+          "url": "https://superfood-greens.com/en-gb/ag1-athletic-greens/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/about-ag1/faq?a=---id--YzN-0C69TyW-pg22fNxuWA",
+          "title": null
+        },
+        {
+          "url": "https://www.garagegymreviews.com/athletic-greens-alternatives",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com",
+          "title": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_(company)",
+          "title": null
+        },
+        {
+          "url": "https://www.facebook.com/calfkickercom1/posts/athletic-greens-now-rebranded-as-ag1-has-invested-heavily-in-scientific-research/1440314384764636/",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=u7PUF5wa4YQ",
+          "title": null
+        },
+        {
+          "url": "https://www.glossy.co/beauty/wellness/ag1-bets-on-clinical-studies-for-next-gen-rebrand-plans-foray-into-brick-and-mortar-retail/",
+          "title": null
+        },
+        {
+          "url": "https://www.reddit.com/r/PeterAttia/comments/1aosj33/athletic_greens_ag1_why_not_talk_about_it_again/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-23",
+      "chat_id": "ch_03ed614f-eec1-568c-a118-839f78452632",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "AG1 company same as Athletic Greens"
+      ]
+    },
+    {
+      "prompt": "Is AG1 the same company as Athletic Greens?",
+      "prompt_id": "pr_30864f0e-5afd-4e8a-8239-e1f9ddd80649",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "Yes, AG1 is the same company as Athletic Greens. The company rebranded its signature nutritional powder, previously known as Athletic Greens, to the name AG1 to reflect its singular focus on its core product. It is the same formula and brand, rebranded for marketing purposes.\n\n- Rebranding: Athletic Greens now operates under the name AG1.\n\n- Product: AG1 remains a popular, comprehensive \"greens\" powder supplement containing over 75 ingredients designed for daily consumption.\n\n- Background: The product was initially associated with the \"Athletic Greens\" name before shifting to the simplified \"AG1\" branding.",
+      "cited_sources": [
+        {
+          "url": "https://www.marathonfitness.de/athletic-greens-test-alternative-preis/",
+          "title": null
+        },
+        {
+          "url": "https://letsliveitup.com/blogs/supergreens/athletic-greens-alternatives",
+          "title": null
+        },
+        {
+          "url": "https://www.facebook.com/calfkickercom1/posts/athletic-greens-now-rebranded-as-ag1-has-invested-heavily-in-scientific-research/1440314384764636/",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.quarks.de/podcast/quarks-science-cops-der-fall-ag1-von-athletic-greens/",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.vively.co.nz/post/is-ag1-and-athletic-greens-actually-healthy",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_fc803e84-1a79-4d29-af65-9871c29ff89a",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "How much does AG1 cost per month?",
+      "prompt_id": "pr_93fc56bd-87b3-4a01-8b9c-d4491591c0db",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) is definitely on the expensive side for a daily supplement. Here’s the real-world pricing:\n\n- **Typical subscription price:** about **$79/month (≈ €70–€75)** ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​  \n- **EU pricing:** around **€87/month** directly from the brand ​​​​​​​​​​​​​​​​​​​  \n- **One-time purchase:** roughly **$99/month (≈ €90+)** ​​​​​​​​​​​​​​​​​​​  \n- **Possible range with promos:** about **$69–$129/month** depending on deals and bundles ​​​​​​​​​​​​​​​​​​​  \n\n### Quick takeaway  \n- Most people end up paying **~€80–€90 per month** on a subscription.  \n- That’s roughly **€2.5–€3 per day** for one scoop.\n\nIf you want, I can break down whether it’s actually “worth it” compared to cheaper greens powders or just taking basic vitamins + eating more whole foods.",
+      "cited_sources": [
+        {
+          "url": "https://www.justcancel.io/blog/cancel-ag1-athletic-greens-2026",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/is-ag1-worth-it-ag1-price",
+          "title": null
+        },
+        {
+          "url": "https://trisendmagazine.com/article/ag1-athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://latestcost.com/ag1-monthly-cost-price-savings-what-drives-it/",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.goodgear.com/ag1-athletic-greens-review/",
+          "title": null
+        },
+        {
+          "url": "https://www.treatment-comparison.com/supplement-treatments/reviews/athletic-greens",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/health/body/athletic-greens-review/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-uk/is-ag1-worth-it-ag1-price",
+          "title": null
+        },
+        {
+          "url": "https://milled.com/drinkag1.com-gb/get-ahead-of-2026-with-ag1-KQabLU-Ex56SGGGq",
+          "title": null
+        },
+        {
+          "url": "https://healthrankr.com/reviews/athletic-greens",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_4e28eb6f-869c-4eb7-8a6d-0109ddb6b301",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "AG1 price per month 2026 Athletic Greens cost"
+      ]
+    },
+    {
+      "prompt": "How much does AG1 cost per month?",
+      "prompt_id": "pr_93fc56bd-87b3-4a01-8b9c-d4491591c0db",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 (Athletic Greens) typically costs about $79 per month for a standard 30-serving pouch with a single monthly subscription. The per-serving price is roughly $2.63. There are also options for a double subscription (two pouches, about $149/month) and occasional higher-cost one-time purchases (about $99 for a 30-serving pouch). Travel packs are available at higher per-serving rates, around $2.82–$3.63 depending on the plan. Prices can vary slightly by region (US vs EU) and any promotions or regional VAT may apply. If you’d like, I can tailor the estimate to your location in Germany and current regional pricing. \n\nCitations:\n- Common pricing ranges and subscription details are reported by multiple sources discussing AG1 pricing, including US-centric breakdowns of one-time vs monthly vs double subscriptions.\n- EU pricing examples show a monthly subscription around €87 (~€2.90/day) per pouch in Europe.",
+      "cited_sources": [
+        {
+          "url": "https://worldlab.ch/ag1-cost/",
+          "title": null
+        },
+        {
+          "url": "https://malluai.com/cost-of-ag1/",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/is-ag1-worth-it-ag1-price",
+          "title": null
+        },
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/ag1-review",
+          "title": null
+        },
+        {
+          "url": "https://www.grns.com.au/blogs/how-to-incorporate-greens-into-your-daily-routine/is-ag1-worth-it-in-2025-what-to-consider-before-you-subscribe",
+          "title": null
+        },
+        {
+          "url": "https://www.oreateai.com/blog/understanding-the-cost-of-ag1-is-it-worth-the-price-per-serving/bcf574d5fca63c5154e6575bc2c4d52d",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/article/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://www.grns.com.au/es/blogs/how-to-incorporate-greens-into-your-daily-routine/is-ag1-worth-it-in-2025-what-to-consider-before-you-subscribe",
+          "title": null
+        },
+        {
+          "url": "https://www.goodhousekeeping.com/uk/product-reviews/health-leisure/a62987964/athletic-greens-review/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_f387a0ce-65e6-45dc-b0f1-d00956600ccc",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "How much does AG1 cost per month?",
+      "prompt_id": "pr_93fc56bd-87b3-4a01-8b9c-d4491591c0db",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 typically costs $79 per month for a subscription, which includes a 30-day supply (one pouch) and a welcome kit with a shaker and canister on your first order. Without a subscription, a single one-time purchase of a 30-day supply is $99. Shipping is generally an additional $9 fee.\n\nKey Pricing Details:\n\n- Monthly Subscription: $79 + $9 shipping (approx. $2.63 per serving).\n\n- One-Time Purchase: $99 + $9 shipping.\n\n- Travel Packs (Subscription): $89 for 30 individual packets.\n\n- Double Subscription: $149 for two pouches (60 servings).\n\nThe subscription can be paused or canceled at any time. Prices and availability are subject to change, so checking the official AG1 shop for the latest offers is recommended.",
+      "cited_sources": [
+        {
+          "url": "https://www.forbes.com/health/supplements/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://letsliveitup.com/blogs/supergreens/ag1-review",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/learn/ag1",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/ag1-membership",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/ag1-review",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_f7057988-17fb-486a-ac25-239ea25a5fbe",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "When was AG1 founded?",
+      "prompt_id": "pr_97c824e7-2dd3-4e83-8ce9-23a5ab6db5f8",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1, originally known as **Athletic Greens**, was founded in **2010** by **Chris Ashenden**. The company started with the goal of creating a high-quality, all-in-one nutritional supplement to help people improve their health and performance. It has since grown in popularity, particularly for its green powder supplement, which contains a blend of vitamins, minerals, probiotics, and other nutrients.",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_52a29f4f-a696-41c6-a0ff-fd3f7ca1bf82",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "When was AG1 founded?",
+      "prompt_id": "pr_97c824e7-2dd3-4e83-8ce9-23a5ab6db5f8",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) was founded in 2010.)",
+      "cited_sources": [
+        {
+          "url": "https://www.wikiwand.com/en/articles/Athletic_Greens",
+          "title": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_(company)",
+          "title": null
+        },
+        {
+          "url": "https://www.patigroup.com/p/the-ag1-phenomenon-how-a-single-sku",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/24/ag1-athletic-greens-supplements-green-powder-bryan-johnson/",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/health-and-nutrition-pseudoscience/agz-more-shaky-science-makers-ag1",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=59VfxirleBE",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/about-us",
+          "title": null
+        },
+        {
+          "url": "https://www.garagegymreviews.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xT26GxS5e-g",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/about-ag1/quality-standards/ctr",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_2459bd2a-bb89-451c-8261-d8d94a1203fe",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "When was AG1 founded?"
+      ]
+    },
+    {
+      "prompt": "How many ingredients does AG1 contain?",
+      "prompt_id": "pr_b82f6478-4f24-4553-9203-e9671e00cc8f",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1, formerly known as Athletic Greens, contains **75 ingredients**. These ingredients cover a wide range of categories, including:\n\n- **Vitamins and minerals** (such as Vitamin A, C, E, and B-complex vitamins)\n- **Superfoods** (like spirulina, chlorella, and wheatgrass)\n- **Probiotics** (for digestive health)\n- **Adaptogens** (like ashwagandha and rhodiola)\n- **Antioxidants** (to support overall health)\n- **Mushrooms** (for immune support)\n- **Digestive enzymes** (to aid digestion)\n\nIt’s a comprehensive supplement designed to provide a wide range of nutrients that might be missing from a typical diet.",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_6463d923-01e8-44a8-864f-caf5bf1aec22",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "How many ingredients does AG1 contain?",
+      "prompt_id": "pr_b82f6478-4f24-4553-9203-e9671e00cc8f",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 contains **75+ ingredients** in its current formula, and many descriptions of the product round that to **about 75 ingredients**. One AG1 product page specifically lists “75+” ingredients, while other reviews describe it as 75 or 83 depending on the version and counting method.",
+      "cited_sources": [
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/ag1-review",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/about-ag1/ingredients/ctr",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/about-ag1/ingredients/ctr",
+          "title": null
+        },
+        {
+          "url": "https://letsliveitup.com/blogs/supergreens/ag1-ingredients",
+          "title": null
+        },
+        {
+          "url": "https://www.vnutritionandwellness.com/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://dentsply.co.uk/ag1-nutrition-facts-review-claims-ingredients-and-evidence",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.thebircherbar.com.au/blogs/musings-muesli/ag1-athletic-greens-ingredients",
+          "title": null
+        },
+        {
+          "url": "https://xandrolab.com/blogs/athletic-greens-ag1-greens-and-its-ingredients/",
+          "title": null
+        },
+        {
+          "url": "https://www.bodyspec.com/blog/post/ag1_athletic_greens_review_benefits_and_fit_with_bodyspec_data",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_366cc280-836d-40a0-a384-ed2dce33f85f",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "How many ingredients does AG1 contain?"
+      ]
+    },
+    {
+      "prompt": "How many ingredients does AG1 contain?",
+      "prompt_id": "pr_b82f6478-4f24-4553-9203-e9671e00cc8f",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) contains 75+ ingredients in a single, daily scoop designed to support gut health, immunity, energy, and cognitive function. The formula includes a blend of vitamins, minerals, probiotics, prebiotics, and whole-food sourced superfoods, and it is designed for dietary preferences like vegan, gluten-free, and keto.\n\nKey details about the ingredients in AG1:\n\n- Comprehensive Nutrient Profile: The formula combines over 75 ingredients, including essential vitamins, minerals, and adaptogens.\n\n- Key Components: The powder includes a raw superfood complex (such as spirulina, lecithin, and apple powder), nutrient-dense extracts, digestive enzymes (bromelain), and probiotics (Lactobacillus acidophilus and Bifidobacterium bifidum).\n\n- Quality Standards: AG1 is certified by NSF Certified for Sport®, meaning it has been tested for safety, purity, and potency.\n\n- What it Excludes: The product is manufactured without added sugar, artificial sweeteners, preservatives, or artificial colors.\n\nThe formula is designed to be a comprehensive, all-in-one supplement rather than requiring multiple pills or powders.",
+      "cited_sources": [
+        {
+          "url": "https://drinkag1.com/en-uk/about-ag1/ingredients/ctr",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-au/about-ag1/benefits",
+          "title": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_(company)",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/health/supplements/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://www.vively.com.au/post/is-ag1-and-athletic-greens-actually-healthy",
+          "title": null
+        },
+        {
+          "url": "https://www.balancedguthealth.com/blog/40ww0brzgn67xv4imrmhz5iuaa6j29",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/about-ag1/benefits",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_8052c99d-56e8-447d-a0ed-1c94da98f1d7",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "How much funding has AG1 raised?",
+      "prompt_id": "pr_e3752d5e-ff07-4322-8191-95a20bb50511",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) has raised **about $115 million in disclosed funding**.\n\n- Its major (and most widely reported) round was a **$115M growth investment in January 2022**, led by Alpha Wave Global, which valued the company at over $1 billion. ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​  \n- Prior to that, the company had largely been **bootstrapped**, with an earlier 2021 round amount not publicly disclosed. ​​​​​​​​​​​​​​​​​​​  \n\n### Bottom line\n- **Total disclosed funding:** ~$115M  \n- **Actual total:** Likely higher, but not fully public due to undisclosed earlier investment(s)\n\nSo while AG1 is a unicorn-scale business, it's notable for raising relatively little capital compared to peers and relying heavily on organic growth early on.",
+      "cited_sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20220125005425/en/Athletic-Greens-Raises-%24115M-From-Alpha-Wave-Ventures-and-Strategic-Investors-to-Accelerate-Global-Growth-and-Reach-Millions-of-New-Customers",
+          "title": null
+        },
+        {
+          "url": "https://www.beautyindependent.com/athletic-greens-raises-115m-funding-valuation-1b/",
+          "title": null
+        },
+        {
+          "url": "https://techcrunch.com/2022/01/25/athletic-greens-valued-at-1-2b-nutrition-drink/",
+          "title": null
+        },
+        {
+          "url": "https://www.trysignalbase.com/news/funding/ag1-%28athletic-greens%29-secures-115-million-in-funding-for-global-mission-to-empower-health",
+          "title": null
+        },
+        {
+          "url": "https://news.crunchbase.com/venture/nutrition-startup-athletic-greens-ag1-vc-funding-unicorn/",
+          "title": null
+        },
+        {
+          "url": "https://beautymatter.com/articles/athletic-greens-lands-115-million-at-12-billion-valuation",
+          "title": null
+        },
+        {
+          "url": "https://sgbonline.com/athletic-greens-secures-115m-in-financing-round/",
+          "title": null
+        },
+        {
+          "url": "https://www.vcnewsdaily.com/Athletic%20Greens/venture-funding.php",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/24/ag1-athletic-greens-supplements-green-powder-bryan-johnson/",
+          "title": null
+        },
+        {
+          "url": "https://www.patigroup.com/p/the-ag1-phenomenon-how-a-single-sku",
+          "title": null
+        },
+        {
+          "url": "https://www.cheddar.com/media/athletic-greens-raises-115-million-to-expand-footprint-of-nutritional-drink/",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/sites/tanyabenedictoklich/2024/12/09/ag1-scoops-up-600-million-in-revenue-in-2024/",
+          "title": null
+        },
+        {
+          "url": "https://www.hiive.com/securities/athletic-greens-stock",
+          "title": null
+        },
+        {
+          "url": "https://frontofficesports.com/athletic-greens-raises-115m-valued-at-over-1b/",
+          "title": null
+        },
+        {
+          "url": "https://forgeglobal.com/athletic-greens_ipo/",
+          "title": null
+        },
+        {
+          "url": "https://www.bevnet.com/news/2022/athletic-greens-plans-global-expansion-with-115m-funding-round/",
+          "title": null
+        },
+        {
+          "url": "https://marketingcrafted.com/case-studies/ag1",
+          "title": null
+        },
+        {
+          "url": "https://www.greenqueen.com.hk/athletic-greens-unicorn/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_47032c08-6e84-48d7-b670-7f5da0898e4b",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "AG1 funding raised Athletic Greens funding amount"
+      ]
+    },
+    {
+      "prompt": "How much funding has AG1 raised?",
+      "prompt_id": "pr_e3752d5e-ff07-4322-8191-95a20bb50511",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 has publicly announced **$115 million** in funding from its first major external round in January 2022. That's the clearest widely reported figure available for the company's raised capital.\n\nSome later articles in 2024 repeat a **$115 million** fundraising announcement, but they appear to be repackaging the same round rather than documenting a new, separate amount.-secures-115-million-in-funding-for-global-mission-to-empower-health)-secures-115-million-in-funding-for-global-mission-to-empower-health)",
+      "cited_sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20220125005425/en/Athletic-Greens-Raises-$115M-From-Alpha-Wave-Ventures-and-Strategic-Investors-to-Accelerate-Global-Growth-and-Reach-Millions-of-New-Customers",
+          "title": null
+        },
+        {
+          "url": "https://frontofficesports.com/athletic-greens-raises-115m-valued-at-over-1b/",
+          "title": null
+        },
+        {
+          "url": "https://www.trysignalbase.com/news/funding/ag1-(athletic-greens)-secures-115-million-in-funding-for-global-mission-to-empower-health",
+          "title": null
+        },
+        {
+          "url": "https://www.leadsontrees.com/news/ag1-(athletic-greens)-secures-115-million-in-funding-for-global-mission-to-empower-health",
+          "title": null
+        },
+        {
+          "url": "https://techcrunch.com/2022/01/25/athletic-greens-valued-at-1-2b-nutrition-drink/",
+          "title": null
+        },
+        {
+          "url": "https://www.seedtable.com/startups/AG1,_Inc.-BWJ39N8",
+          "title": null
+        },
+        {
+          "url": "https://www.beautyindependent.com/athletic-greens-raises-115m-funding-valuation-1b/",
+          "title": null
+        },
+        {
+          "url": "https://sg.news.yahoo.com/athletic-greens-valued-1-2b-160042910.html",
+          "title": null
+        },
+        {
+          "url": "https://www.patigroup.com/p/the-ag1-phenomenon-how-a-single-sku",
+          "title": null
+        },
+        {
+          "url": "https://beautymatter.com/articles/athletic-greens-lands-115-million-at-12-billion-valuation",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_8e392298-3ae1-4fcc-b7f3-6828618f41e9",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "How much funding has AG1 raised?"
+      ]
+    },
+    {
+      "prompt": "How much funding has AG1 raised?",
+      "prompt_id": "pr_e3752d5e-ff07-4322-8191-95a20bb50511",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) has raised over $115 million in disclosed funding. The company secured this significant capital in a January 2022 Series C round led by Alpha Wave Global, pushing its valuation over $1 billion. The funds are aimed at accelerating international expansion, research, and subscriber growth.\n\nKey funding and valuation details include:\n\n- Total Funding: The primary disclosed amount is $115 million, following an earlier, undisclosed investment in July 2021.\n\n- Valuation: As of early 2026, the company's valuation was estimated around $1.8 billion, building on its \"unicorn\" status of over $1 billion in 2022.\n\n- Key Investors: Investors include Alpha Wave Global (formerly Falcon Edge), IVP, and SC.Holdings.\n\n- Investor Base: The company has attracted celebrity investors, including Lewis Hamilton, Hugh Jackman, and Cindy Crawford.\n\nBefore this influx of capital, the company bootstrapped for 11 years, reaching $150 million in revenue before taking on outside investment.",
+      "cited_sources": [
+        {
+          "url": "https://www.beautyindependent.com/athletic-greens-raises-115m-funding-valuation-1b/",
+          "title": null
+        },
+        {
+          "url": "https://frontofficesports.com/athletic-greens-raises-115m-valued-at-over-1b/",
+          "title": null
+        },
+        {
+          "url": "https://businessmodelcanvastemplate.com/blogs/owners/athletic-greens-who-owns",
+          "title": null
+        },
+        {
+          "url": "https://www.trysignalbase.com/news/funding/ag1-(athletic-greens)-secures-115-million-in-funding-for-global-mission-to-empower-health",
+          "title": null
+        },
+        {
+          "url": "https://www.reuters.com/legal/transactional/powder-supplement-brand-ag1-explores-options-including-sale-sources-say-2026-04-10/",
+          "title": null
+        },
+        {
+          "url": "https://www.gcimagazine.com/brands-products/ingestibles-supplements/news/22018526/athletic-greens-receives-115m-funding",
+          "title": null
+        },
+        {
+          "url": "https://www.yahoo.com/news/athletic-greens-valued-1-2b-160042910.html",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_e168dc54-e4fb-4976-ae14-fda2cb2191b5",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Who is the current CEO of AG1?",
+      "prompt_id": "pr_ec76858f-492f-43d7-a36f-3970a984969e",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "As of my knowledge cutoff in September 2021, **AG1** (formerly known as **Athletic Greens**) was led by its founder **Chris Ashenden**, who served as the CEO. However, I don't have the latest information on the current leadership. \n\nFor the most up-to-date details, you might want to check their official website or recent news sources.",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_52ae548e-1335-4e2f-b18b-c580d14413a7",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Who is the current CEO of AG1?",
+      "prompt_id": "pr_ec76858f-492f-43d7-a36f-3970a984969e",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "Kat Cole is the current CEO of AG1. She took on the role after previously serving as president and COO and has been leading the company through its growth phase since joining in 2021.",
+      "cited_sources": [
+        {
+          "url": "https://athletechnews.com/ag1-makes-ceo-change-as-founder-chris-ashenden-steps-down/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/leadership",
+          "title": null
+        },
+        {
+          "url": "https://worldlab.ch/who-owns-ag1/",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/30/ag1-supplements-ceo-kat-cole-athletic-greens/?tpcc=NL_Marketing",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=r-Ii1Y71Jt4",
+          "title": null
+        },
+        {
+          "url": "https://www.glossy.co/beauty/wellness/ag1-bets-on-clinical-studies-for-next-gen-rebrand-plans-foray-into-brick-and-mortar-retail/",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cIl34JPfsTk",
+          "title": null
+        },
+        {
+          "url": "https://www.dailymotion.com/video/xa33xsw",
+          "title": null
+        },
+        {
+          "url": "https://mabumbe.com/people/kat-cole-age-net-worth-career-highlights-full-biography/",
+          "title": null
+        },
+        {
+          "url": "https://www.linkedin.com/posts/drink-ag1_ag1-ceo-on-supplement-business-and-growth-activity-7240438540390535168-FG8x",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_cdbc7c62-b6e1-4c70-9114-7e6f655c46d8",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Who is the current CEO of AG1?",
+      "prompt_id": "pr_ec76858f-492f-43d7-a36f-3970a984969e",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "Kat Cole is the current CEO of AG1, formerly known as Athletic Greens, having taken the role in July 2024 after joining the company in November 2021 as President and COO. She is known for her previous leadership roles at Cinnabon and Focus Brands, and has been actively scaling AG1's operations and revenue, which reached $600 million, the company says on LinkedIn.\n\nIf you are interested, I can also:\n\n- Tell you more about Kat Cole's background and career\n\n- Provide more information on AG1's growth and products\n\n- List other key members of the AG1 leadership team\n\nLet me know if you want to know more about the CEO or the company.",
+      "cited_sources": [
+        {
+          "url": "https://www.linkedin.com/in/katcole",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rrQiHbeFMrI",
+          "title": null
+        },
+        {
+          "url": "https://www.instagram.com/katcoleatl/",
+          "title": null
+        },
+        {
+          "url": "https://insider.fitt.co/328-kat-cole-ceo-of-ag1/",
+          "title": null
+        },
+        {
+          "url": "https://www.clay.com/dossier/ag1-ceo",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/sites/elizabethmacbride/2026/02/28/kat-cole-tripled-ag1s-revenue-fast-she-has-two-tips-for-founders/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_86220dbd-c6f6-480d-9eb7-79873d9d823e",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Who is the founder of AG1?",
+      "prompt_id": "pr_fe1bdf52-d347-4098-9e69-3789bd144da9",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "The founder of **AG1** (formerly known as Athletic Greens) is **Chris Ashenden**. ​​​​​​​​​​​​​​​​​​​",
+      "cited_sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_%28company%29",
+          "title": null
+        },
+        {
+          "url": "https://www.linkedin.com/in/chris-ashenden-35652013",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/about-us",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/about-us",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-nz/about-us",
+          "title": null
+        },
+        {
+          "url": "https://www.patigroup.com/p/the-ag1-phenomenon-how-a-single-sku",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dys82V5yVY8",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rrQiHbeFMrI",
+          "title": null
+        },
+        {
+          "url": "https://athletechnews.com/ag1-makes-ceo-change-as-founder-chris-ashenden-steps-down/",
+          "title": null
+        },
+        {
+          "url": "https://sgcarney.substack.com/p/ag1-chris-ashenden",
+          "title": null
+        },
+        {
+          "url": "https://www.clay.com/dossier/ag1-ceo",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/30/ag1-supplements-ceo-kat-cole-athletic-greens/",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/24/ag1-athletic-greens-supplements-green-powder-bryan-johnson/",
+          "title": null
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/07996306/persons-with-significant-control",
+          "title": null
+        },
+        {
+          "url": "https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/",
+          "title": null
+        },
+        {
+          "url": "https://www.theconsumervc.com/p/how-he-founded-a-billion-dollar-nutrition",
+          "title": null
+        },
+        {
+          "url": "https://insider.fitt.co/127-chris-ashenden-founder-ceo-at-athletic-greens/",
+          "title": null
+        },
+        {
+          "url": "https://www.highperformr.ai/people/chris-ashenden-35652013",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_5383cd05-bd73-47d5-bf4f-145e246741cc",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "Who is the founder of AG1",
+        "AG1 company founder AG1 health supplement AG1 brand founder"
+      ]
+    },
+    {
+      "prompt": "Who is the founder of AG1?",
+      "prompt_id": "pr_fe1bdf52-d347-4098-9e69-3789bd144da9",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 was founded by Chris Ashenden (often referred to as \"Chris the Kiwi\"), originally launching the product as Athletic Greens in 2010.)",
+      "cited_sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=ABGDSo47FTA",
+          "title": null
+        },
+        {
+          "url": "https://www.casaclutia.nl/ag1-the-rise-the-hype-and-the-untold-story-of-its-founder/",
+          "title": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_(company)",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/24/ag1-athletic-greens-supplements-green-powder-bryan-johnson/",
+          "title": null
+        },
+        {
+          "url": "https://www.yahoo.com/lifestyle/battle-over-ag1-influencer-famous-110000347.html",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pB2wDrtg-vw",
+          "title": null
+        },
+        {
+          "url": "https://www.reddit.com/r/KaraAndNate/comments/1gfu16n/ag1_founder_resigns_amid_criminal_history_scrutiny/",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wb1g-Cbcjwo",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/health-and-nutrition-pseudoscience/agz-more-shaky-science-makers-ag1",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/leadership",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_df1fc7c1-8677-4f67-b23f-2f2060604554",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "Who is the founder of AG1?"
+      ]
+    },
+    {
+      "prompt": "Who is the founder of AG1?",
+      "prompt_id": "pr_fe1bdf52-d347-4098-9e69-3789bd144da9",
+      "prompt_topic": "Direkte Fact-Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "Chris Ashenden (\"Chris the Kiwi\") is the founder of AG1 (formerly Athletic Greens), a, nutritional supplement company founded in 2010 that built a billion-dollar brand. He stepped down from his role in 2024 following an investigation by the Powder Keg podcast into his past business dealings and unpaid reparations from a property scheme in New Zealand.\n\nKey Details Regarding the Founder:\n\n- Background: Chris Ashenden is a New Zealand entrepreneur who created the green powder supplement to simplify nutrition.\n\n- AG1 Growth: He built AG1 into a high-value company, largely by leveraging health podcasts and influencer marketing (e.g., Joe Rogan, Andrew Huberman).\n\n- Resignation & Controversy: In 2024, an investigation by New Zealand journalists revealed Ashenden had not paid all reparations related to a previous, defunct business, contradicting his earlier claims.\n\n- Current Leadership: Following Ashenden's resignation, Kat Cole, a former executive, was promoted to lead the company.\n\nAshenden has historically claimed his mission was to improve health, and he also founded the charity Fundación Da Alegría to support children's nutrition in Latin America.",
+      "cited_sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=rrQiHbeFMrI",
+          "title": null
+        },
+        {
+          "url": "https://www.linkedin.com/in/chris-ashenden-35652013",
+          "title": null
+        },
+        {
+          "url": "https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/",
+          "title": null
+        },
+        {
+          "url": "https://podcasts.apple.com/nz/podcast/brief-how-to-fire-a-billionaire/id1515827446?i=1000677999250",
+          "title": null
+        },
+        {
+          "url": "https://newsroom.co.nz/2024/11/06/billion-dollar-firm-founder-stacks-the-deck-with-leaked-recording/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-nz/about-us",
+          "title": null
+        },
+        {
+          "url": "https://x.com/ChrisAshenden",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_0aa38c19-d0f4-4d69-842c-ba21eca19ec1",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Is AG1 worth the money?",
+      "prompt_id": "pr_0a39535e-4d4f-476e-bd4e-52c0e6f66aa5",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1 (formerly Athletic Greens) is a popular greens powder that claims to be a comprehensive daily supplement with a mix of vitamins, minerals, probiotics, digestive enzymes, and more. Whether it's \"worth the money\" depends on a few factors, like your health goals, lifestyle, and what you value in a supplement.\n\n### Pros:\n1. **Convenience**: If you're someone who struggles to eat a balanced diet with lots of fruits, veggies, and whole foods, AG1 offers a convenient way to get some of those nutrients in a single scoop. \n2. **Comprehensive formula**: It includes a wide range of ingredients like adaptogens, superfoods, and probiotics that support energy, gut health, and immunity. \n3. **High-quality sourcing**: AG1 is often praised for sourcing high-quality ingredients, and it undergoes third-party testing, which may give some peace of mind about its purity and potency.\n4. **Customer satisfaction**: Many people report feeling better, with improved digestion or energy levels, after using it regularly.\n\n### Cons:\n1. **Price**: AG1 is expensive—typically around $70 for a month’s supply (or about $2–$3 per serving). There are cheaper greens powders out there that provide similar nutrients, although they may not have the exact same mix or quality.\n2. **Taste**: While AG1 has worked hard to make it taste decent, some people still find it too earthy or grassy. If you’re picky about taste, it might not be your favorite.\n3. **Not a magic bullet**: While AG1 can complement a healthy lifestyle, it’s not going to replace the benefits of eating a variety of whole foods. So, if you’re looking for a quick fix or substitute for a balanced diet, it might not meet your expectations.\n\n### Who might benefit?\n- People who are busy and want a simple, all-in-one supplement to boost their nutrition.\n- Those with specific needs like gut health support, immunity boosts, or more energy.\n- People who have trouble getting enough variety of fruits and veggies in their diet.\n\n### Who might not?\n- Those on a tight budget, as there are more affordable alternatives with similar ingredients.\n- People who already have a well-balanced diet and don’t need the extra supplementation.\n  \nIf you’re on the fence, you might want to start with a sample or smaller pack (AG1 offers trial options) to see if it works for you before committing to a full month. It really depends on your personal health goals and how much value you place on the convenience of an all-in-one supplement!",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_4e756990-bf06-4691-8d88-a6656e70c9d3",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Is AG1 worth the money?",
+      "prompt_id": "pr_0a39535e-4d4f-476e-bd4e-52c0e6f66aa5",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "Short answer: AG1 can be worth it for some people, but it’s not a universal must-have or good value for most.\n\n * What it is: AG1 (Athletic Greens) is a comprehensive greens powder with vitamins, minerals, probiotics, and other herbal ingredients in a single daily serving. For many users it adds convenience by replacing several separate supplements, which can be appealing if you’re busy or want a simplified routine. However, its price per serving is high relative to many alternatives, which weighs against it for budget-conscious buyers. This perspective is echoed by independent reviews that note AG1’s premium cost compared with other greens powders.\n\n * Price and value: Typical monthly subscriptions run well above $60–$80 USD for ~30 servings, and some reviews place the cost-per-serving near the higher end of the market. If you compare to cheaper greens powders, AG1 often loses on value per serving, even if it delivers a broad ingredient profile. For many people, a less expensive greens powder plus a multivitamin can achieve similar nutritional gaps at lower cost.\n\n * Who it’s best for: Athletes or individuals with unusually high nutrient needs, digestive concerns, or those who value the convenience of an all-in-one daily dose may benefit more from AG1. If you’re generally healthy, eat a balanced diet, and are budget-conscious, you’ll likely get similar benefits from a well-chosen set of whole foods and a simpler supplement routine (or slightly cheaper greens powder).\n\n * Practical tips if you’re considering it:\n\n * Try to evaluate your current diet and identify nutrient gaps you want to fill, rather than assuming you need an all-in-one product.\n\n * Take advantage of any money-back guarantees or trial options to test tolerability and perceived benefits before committing long-term.\n\n * Consider taste, texture, and convenience, since these factors influence consistency and long-term adherence as much as price.\n\nIf you’d like, tell me your typical diet, budget, and goals (energy, immunity, digestion, etc.), and I can tailor a cost-benefit assessment and shortlist lower-cost alternatives that might better fit your needs.",
+      "cited_sources": [
+        {
+          "url": "https://www.garagegymreviews.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://unfilteredonline.com/what-is-ag1-and-is-it-worth-the-money/",
+          "title": null
+        },
+        {
+          "url": "https://letsliveitup.com/blogs/supergreens/ag1-review",
+          "title": null
+        },
+        {
+          "url": "https://www.thequalityedit.com/articles/ag1-review-and-ag1-alternative",
+          "title": null
+        },
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/ag1-review",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.reddit.com/r/HubermanLab/comments/1330u39/is_ag_1_worth_the_money/",
+          "title": null
+        },
+        {
+          "url": "https://www.goodhousekeeping.com/uk/product-reviews/health-leisure/a62987964/athletic-greens-review/",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.goodhousekeeping.com/health-products/a46883816/athletic-greens-review/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_ea2bd593-0879-45e0-9961-1a61e6dd6324",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "Is AG1 worth the money?"
+      ]
+    },
+    {
+      "prompt": "Is AG1 worth the money?",
+      "prompt_id": "pr_0a39535e-4d4f-476e-bd4e-52c0e6f66aa5",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 is likely worth it for individuals seeking a convenient, high-quality, all-in-one nutritional supplement for busy lifestyles, frequent travel, or to bridge diet gaps. It is expensive and unnecessary for those with a balanced, nutrient-dense diet. It offers comprehensive vitamins, minerals, probiotics, and antioxidants in one scoop, and is NSF-certified for sport.\n\nKey Considerations\n\n- Convenience vs. Cost: AG1 replaces multiple supplements (multivitamin, probiotics, greens powder), which justifies the high price for some users, but it is a significant monthly expense.\n\n- Nutritional Value: It is packed with vitamins and minerals, though it may not replace the fiber and fiber-bound nutrients from whole foods.\n\n- Suitability: It is ideal for busy people, athletes, and travelers but not intended for children, or those pregnant/breastfeeding.\n\n- Transparency: Some critics note it is a one-size-fits-all formula and note a lack of transparency regarding specific nutrient amounts in its proprietary blends.\n\nPros\n\n- Convenience: All-in-one powder is easy to take.\n\n- Quality & Safety: NSF Certified for Sport (3rd party tested for safety and banned substances).\n\n- Nutrient Density: Includes vitamins, minerals, probiotics, and antioxidants.\n\nCons\n\n- High Price: Often considered one of the most expensive greens powders.\n\n- Taste/Texture: Some users find the taste and, sometimes, gritty texture unappealing.\n\n- Proprietary Blends: Hard to know exact dosages of every ingredient.\n\nIs it Right for You?AG1 is likely worth it if you struggle to maintain a balanced diet due to a busy schedule, travel often, and can afford the premium cost. If you already have a diet rich in fruits, vegetables, and whole foods, or have a stable supplement routine, you probably don't need it.",
+      "cited_sources": [
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/health/supplements/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://www.the-independent.com/extras/indybest/us/ag1-reviews-greens-b2941608.html",
+          "title": null
+        },
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/ag1-review",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=62YNLVykloU&t=191",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OLCwJd8w1LI&t=154",
+          "title": null
+        },
+        {
+          "url": "https://www.balancedguthealth.com/blog/40ww0brzgn67xv4imrmhz5iuaa6j29",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/critical-thinking-health-and-nutrition/you-probably-dont-need-green-ag1-smoothie",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?t=191&v=62YNLVykloU",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?t=154&v=OLCwJd8w1LI",
+          "title": null
+        },
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/live-it-up-vs-ag1",
+          "title": null
+        },
+        {
+          "url": "https://www.trailrunnermag.com/nutrition/is-athletic-greens-worth-it/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_092d6ef0-dcd4-4a19-8746-6585747c985d",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "What are the ingredients in AG1?",
+      "prompt_id": "pr_478725e5-4e7b-488f-943c-906ffab35235",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "AG1 (Athletic Greens 1), a popular daily nutritional supplement, contains a broad mix of vitamins, minerals, probiotics, adaptogens, and whole-food-sourced ingredients. Here’s a detailed breakdown, based on the latest publicly available formulation:  \n\n---\n\n### **Vitamins & Minerals**\nAG1 contains 75 vitamins, minerals, and whole-food-sourced nutrients, including:\n\n- Vitamin A, C, D3, E, K2  \n- B-complex vitamins: B1, B2, B3, B5, B6, B12, Biotin, Folate  \n- Minerals: Zinc, Selenium, Manganese, Chromium, Molybdenum, Copper, Iodine  \n\n---\n\n### **Superfood & Whole-Food Complex**\nDerived from fruits, vegetables, and other nutrient-dense sources:\n\n- Spirulina, Chlorella, Wheatgrass  \n- Broccoli, Spinach, Kale, Carrot, Beetroot  \n- Acerola cherry, Bilberry, Goji berry, Camu Camu  \n\n---\n\n### **Adaptogens & Herbs**\nSupports stress management, immunity, and energy:\n\n- Ashwagandha  \n- Rhodiola rosea  \n- Eleuthero (Siberian ginseng)  \n- Milk thistle  \n\n---\n\n### **Digestive Enzymes & Prebiotics**\nSupports gut health and nutrient absorption:\n\n- Inulin (prebiotic fiber from chicory root)  \n- Papain, Bromelain, Lipase, Amylase  \n- Lactobacillus and Bifidobacterium strains  \n\n---\n\n### **Other Notables**\n- Antioxidants from green tea extract, grape seed extract, and other plant compounds  \n- Plant-derived compounds for immune support and mitochondrial function  \n\n---\n\nAG1 is designed as an all-in-one nutritional powder to support energy, immunity, gut health, and overall wellness. The exact proprietary ratios aren’t disclosed, but the ingredients above make up its main functional groups.\n\n---\n\nIf you want, I can create a **comprehensive table listing all 75+ vitamins, minerals, herbs, and superfoods in AG1** with their specific benefits, so it’s easier to see what each does.  \n\nDo you want me to do that?",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_8fca8ad1-8dfb-4d91-9bde-3310d616d07f",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "What are the ingredients in AG1?",
+      "prompt_id": "pr_478725e5-4e7b-488f-943c-906ffab35235",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 (Athletic Greens) contains a proprietary blend of **~70–75+ ingredients**, including **vitamins and minerals**, **superfood/greens powders**, **herbs and extracts**, **digestive support ingredients (e.g., prebiotic fiber and enzymes)**, **mushroom components**, and **dairy-free probiotics**.\n\nA commonly published full/near-full ingredient list includes (examples from the ingredient list): **acerola cherries, alpha lipoic acid, apple, artichoke, ashwagandha, astragalus, beet root, bilberry, broccoli, bromelain, burdock root, chlorella, chromium picolinate, dandelion root/herb, eleuthero (Siberian ginseng), ginger, goji berry, grape seed extract, green tea, hawthorn berry, inulin, kelp, licorice root, magnesium, milk thistle, papaya, pea protein, probiotics, reishi mushroom, rhodiola, rose hips, selenium, shiitake, slippery elm, spirulina, and vitamins/minerals like A, B12, C, E, zinc, copper, manganese, potassium, sodium, etc.**\n\n## Important note\nThe *exact* ingredient breakdown (and quantities) can vary by **market/label version** and can change over time, so the most reliable source is the **current AG1 product label** where you live.\n\nIf you tell me whether you’re using the **US (drinkag1.com/en-us)** or **EU/UK** version (or paste a photo/text of your label), I can list the **exact ingredients for your specific formula**.",
+      "cited_sources": [
+        {
+          "url": "https://www.thebircherbar.com.au/blogs/musings-muesli/ag1-athletic-greens-ingredients",
+          "title": null
+        },
+        {
+          "url": "https://nutritionandingredients.com/athletic-greens-ag1/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-uk/about-ag1/ingredients/ctr",
+          "title": null
+        },
+        {
+          "url": "https://foodisgood.com/product/ag1-comprehensive-convenient-daily-nutrition/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/about-ag1/ingredients/old",
+          "title": null
+        },
+        {
+          "url": "https://whatsinag1.com",
+          "title": null
+        },
+        {
+          "url": "https://up-prod.athleticgreens.com/about-ag1/ingredients/ctr",
+          "title": null
+        },
+        {
+          "url": "https://xandrolab.com/blogs/athletic-greens-ag1-greens-and-its-ingredients/",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RS_qJdnCxRQ",
+          "title": null
+        },
+        {
+          "url": "http://www.shopst1.com/about-ag1/ingredients/ctr",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_8fd6494a-ec4c-4283-904d-a3c45a7ae1af",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "What are the ingredients in AG1?",
+      "prompt_id": "pr_478725e5-4e7b-488f-943c-906ffab35235",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 is a comprehensive, powder-based supplement containing 70+ ingredients designed for foundational nutrition, including vitamins, minerals, probiotics, prebiotics, and superfood blends. Key components include spirulina, lecithin, apple powder, broccoli, ginger, ashwagandha, and 7.2 billion CFU of probiotics (Lactobacillus acidophilus and Bifidobacterium bifidum).\n\nCore Ingredient Categories\n\n- Vitamins & Minerals: High potency Vitamin C, E, B-complex (including B12 and folate), Zinc, Selenium, and Chromium.\n\n- Superfood Complex: Organic spirulina, lecithin, apple powder, wheatgrass, alfalfa, chlorella, and barley leaf.\n\n- Adaptogens & Antioxidants: Cocoa bean extract, grape seed extract, green tea extract, ginger, licorice root, ashwagandha, and rhodiola.\n\n- Probiotics & Prebiotics: Contains dairy-free probiotics (7.2 billion CFU) and inulin for digestive health.\n\n- Digestive Enzymes: Bromelain and papain, along with medicinal mushrooms like Reishi and Shiitake.\n\nFormulation Highlights\n\n- No Iron/Vitamin D: Note that AG1 does not contain iron or Vitamin D.\n\n- Dietary Features: It is dairy-free, gluten-free, and contains no added sugar.\n\n- Quality Standard: The product is NSF Certified for Sport.\n\nAG1 is designed to be taken once daily to support immune health, digestion, and energy levels.",
+      "cited_sources": [
+        {
+          "url": "https://drinkag1.com/en-eu/about-ag1/ingredients/ctr",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/hero-greens-powder",
+          "title": null
+        },
+        {
+          "url": "https://www.amazon.com/AG1-Greens-Powder-Multivitamin-Gluten-Free/dp/B084GZNKZQ",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/ag1-ingredients",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/blog/post/ag1-next-gen-formula",
+          "title": null
+        },
+        {
+          "url": "https://www.instagram.com/reel/DQUiTTkgUB6/",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://xandrolab.com/blogs/athletic-greens-ag1-greens-and-its-ingredients/",
+          "title": null
+        },
+        {
+          "url": "https://letsliveitup.com/blogs/supergreens/ag1-ingredients",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-eu/about-ag1/faq",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_dcf947b7-8b15-41ba-a241-11f2e076795c",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Should I buy AG1 or Huel?",
+      "prompt_id": "pr_c8976df8-cc57-4ff9-b186-26c308365cd0",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "Both AG1 and Huel are popular options for meal replacements, but they serve slightly different purposes and have their own strengths. Here's a breakdown of each to help you decide:\n\n### **AG1 (formerly Athletic Greens)**\n- **Purpose:** It's a comprehensive daily greens powder designed to support overall health with a focus on gut health, immunity, energy, and recovery.\n- **Nutrients:** AG1 contains 75+ ingredients, including vitamins, minerals, superfoods, probiotics, and adaptogens. It’s mainly marketed as a supplement to fill nutritional gaps rather than a full meal replacement.\n- **Taste:** Generally considered better tasting than many greens powders, with a mild flavor (though this is subjective).\n- **Convenience:** Just mix with water, and you're good to go. It’s easy to carry around for a quick boost during the day.\n- **Ideal for:** People looking for a daily health supplement or those who are on the go and want to improve their overall nutrition without focusing on meal replacements.\n\n### **Huel**\n- **Purpose:** Huel is a complete meal replacement designed to provide balanced macronutrients (carbs, fats, protein) and micronutrients (vitamins and minerals) in a convenient, ready-to-consume form.\n- **Nutrients:** Huel products (like the powder or ready-to-drink bottles) are designed to offer a full, balanced meal. They provide everything your body needs, from protein and fiber to essential fatty acids.\n- **Taste:** The taste varies by flavor, but it’s generally described as neutral or slightly earthy. You might need to add flavors or mix-ins to make it more enjoyable.\n- **Convenience:** Huel comes in powder form (which you mix with water) and as ready-to-drink bottles. It’s great for people who want a full meal replacement when they don’t have time to cook.\n- **Ideal for:** People looking for an easy, balanced meal replacement, particularly if you need something quick and filling.\n\n### **So, which one should you go for?**\n- **If you’re looking for an all-in-one daily supplement** that supports your health with a broad spectrum of nutrients (but not a meal replacement), **AG1** would be a great fit.\n- **If you need a full meal replacement** with a good balance of carbs, protein, fats, and micronutrients, **Huel** is more suitable.\n\nDo you want something to fill nutritional gaps or more of a meal replacement that keeps you full for longer? That might help narrow down your decision.",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_c05b67cc-65e2-42f7-8f4c-4c6f4db703a6",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        },
+        {
+          "id": "kw_6e6567da-90c5-4da2-b0ae-0884cc2852bf",
+          "name": "Huel",
+          "position": 2
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Should I buy AG1 or Huel?",
+      "prompt_id": "pr_c8976df8-cc57-4ff9-b186-26c308365cd0",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "If your goal is **best value for a daily “all-in-one” nutrition/greens powder**, I’d lean **Huel**. If your goal is **a more premium, probiotic-forward greens/supplement style** and you’re OK paying more, **AG1** may fit better.\n\n## Quick decision guide\n- **Pick Huel if you want:** lower cost, straightforward “one product to cover basics” convenience, and you don’t feel strongly about probiotics being a major differentiator.\n- **Pick AG1 if you want:** a more premium option focused on gut support themes, and you specifically value **higher probiotics** and (in some comparisons) stronger third‑party certification signals.\n\n## What most people actually notice\n- **Taste/texture & ease:** Some comparisons report AG1 tends to mix smoothly with a “smoother” feel, while Huel can be a bit more chalky (people’s preferences vary).\n- **Probiotics emphasis:** AG1 is often described as having **significantly more probiotics** than Huel, which is one of the bigger recurring differentiators in side-by-side guides.\n\n## A simple “choose in 60 seconds” question\nWhat matters more to you?\n1. **Price/value + broad daily nutrition convenience** → **Huel**\n2. **Gut/probiotics-forward premium** and you’re willing to pay more → **AG1**\n\n## One thing to check for you personally\nIf you have **IBS-sensitive digestion, are immunocompromised, are pregnant, or take meds where you’re cautious with supplements**, it’s worth confirming ingredient suitability (especially around probiotics/add-ins) before switching.\n\nIf you tell me **your main goal** (e.g., “daily greens,” “gut health,” “replace meals,” “weight loss,” “energy”) and whether **price or taste** matters most, I’ll recommend one more confidently.",
+      "cited_sources": [
+        {
+          "url": "https://torokhtiy.com/blogs/guides/huel-vs-ag1",
+          "title": null
+        },
+        {
+          "url": "https://justsupplementreviews.com/greens-powders/ag1-vs-huel-daily-greens/",
+          "title": null
+        },
+        {
+          "url": "https://vibranthealth.com/blogs/blog/huel-vs-ag1",
+          "title": null
+        },
+        {
+          "url": "https://blog.revgear.com/ag1-vs-huel/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-uk/blog/post/ag1-vs-huel-daily-greens",
+          "title": null
+        },
+        {
+          "url": "https://www.menshealth.com/nutrition/a69110416/do-superdrinks-work/",
+          "title": null
+        },
+        {
+          "url": "https://letsliveitup.com/blogs/supergreens/huel-greens-vs-ag1-vs-live-it-up",
+          "title": null
+        },
+        {
+          "url": "https://vavaverve.com/en-us/blogs/news/ag1-vs-huel-daily-greens",
+          "title": null
+        },
+        {
+          "url": "https://www.skool.com/supps-2842/huel-daily-greens-vs-ag-1-which-green-powder-is-better",
+          "title": null
+        },
+        {
+          "url": "https://www.reddit.com/r/Huel/comments/1d6ytzs/ag1_vs_huels_daily_greens/",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_dcc254e9-0c46-4767-aa5c-9987059aef8b",
+      "brands_mentioned": [
+        {
+          "id": "kw_6e6567da-90c5-4da2-b0ae-0884cc2852bf",
+          "name": "Huel",
+          "position": 1
+        },
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 2
+        }
+      ],
+      "queries": [
+        "Should I buy AG1 or Huel?"
+      ]
+    },
+    {
+      "prompt": "Should I buy AG1 or Huel?",
+      "prompt_id": "pr_c8976df8-cc57-4ff9-b186-26c308365cd0",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "Choose Huel Daily Greens for better value and a higher number of nutrients (91 vs 75), making it the better choice for cost-conscious users. Choose AG1 if taste, premium branding, and a smoother texture are top priorities, despite costing roughly 75% more per serving. Both offer comprehensive daily vitamins.\n\nQuick Comparison\n\n- Cost: Huel (~£1.50/serving) is significantly cheaper than AG1 (~£2.63/serving).\n\n- Nutrient Profile: Huel Daily Greens contains 91 vitamins, minerals, and nutrients, while AG1 contains 75.\n\n- Taste: Users generally find Huel Daily Greens to have a milder, less \"grassy\" taste compared to AG1.\n\n- Inclusions: AG1 includes specialized blends often praised for gut health (pre/probiotics), while Huel provides a higher nutrient count overall.\n\nBuy Huel Daily Greens if:\n\n- You want better value for money.\n\n- You prefer a higher variety of ingredients (91).\n\n- You want a cleaner formula without soy.\n\nBuy AG1 if:\n\n- You prioritize taste and mixability over cost.\n\n- You want a well-established brand.\n\n- You want convenient travel packets.\n\nUltimately, both products provide a convenient nutritional boost, but cannot replace the fiber and nutritional value of whole foods.",
+      "cited_sources": [
+        {
+          "url": "https://de.huel.com/pages/athletic-greens-comparison",
+          "title": null
+        },
+        {
+          "url": "https://www.reddit.com/r/Huel/comments/11bt6t6/huel_daily_greens_vs_athletic_greens_ag1_why_im/?tl=de",
+          "title": null
+        },
+        {
+          "url": "https://talksport.com/shopping/2862194/best-greens-powder/",
+          "title": null
+        },
+        {
+          "url": "https://hencestacks.com/blogs/latest/huel-daily-greens-vs-ag1-which-greens-powder-is-worth-your-money",
+          "title": null
+        },
+        {
+          "url": "https://hencestacks.com/es/blogs/latest/huel-daily-greens-vs-ag1-which-greens-powder-is-worth-your-money",
+          "title": null
+        },
+        {
+          "url": "https://www.verrotraining.com/blog/powdered-greens-vs-real-vegetables-do-they-actually-work",
+          "title": null
+        },
+        {
+          "url": "https://www.topnutritioncoaching.com/blog/huel-review",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_00af4d5a-15f0-4f36-a8ad-093d7e2d9772",
+      "brands_mentioned": [
+        {
+          "id": "kw_6e6567da-90c5-4da2-b0ae-0884cc2852bf",
+          "name": "Huel",
+          "position": 1
+        },
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 2
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Is AG1 backed by science?",
+      "prompt_id": "pr_e18ad447-f0d7-4bd8-bcac-96ffaaf02572",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "Short answer: **AG1 is only weakly backed by science**. There’s *some* research around it, but it’s limited, often company-linked, and doesn’t strongly support most of the big marketing claims.\n\nHere’s a clear breakdown of what “backed by science” actually means in this case:\n\n---\n\n## 🧪 1. There *are* studies—but they’re limited\n- AG1’s maker (Athletic Greens​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​) says it has clinical trials and research on the formula. ​​​​​​​​​​​​​​​​​​​  \n- One small randomized trial (~30 people, ~1 month) reported changes in gut bacteria. ​​​​​​​​​​​​​​​​​​​  \n\n👉 The issue:\n- **Small sample sizes**\n- **Short duration**\n- Often **company-funded or co-authored**\n\nThat doesn’t make them useless—but it *does* make them weaker evidence.\n\n---\n\n## 🔬 2. Some peer-reviewed research exists—but it’s narrow\n- A 2024 study found AG1 **can alter gut microbiome composition** (in a lab simulation, not real humans). ​​​​​​​​​​​​​​​​​​​  \n- A 2026 clinical trial looked at nutrition status and microbiome changes in athletes. ​​​​​​​​​​​​​​​​​​​  \n\n👉 The issue:\n- Effects are mostly **biomarkers (like bacteria levels)**  \n- Not strong proof of real-world outcomes like:\n  - better health  \n  - more energy  \n  - disease prevention  \n\n---\n\n## ⚠️ 3. No strong evidence for the big claims\nIndependent reviews consistently point out:\n\n- **No direct evidence that AG1 as a product improves health outcomes** ​​​​​​​​​​​​​​​​​​​  \n- Ingredient doses are unclear due to **proprietary blends** ​​​​​​​​​​​​​​​​​​​  \n- Benefits are inferred from **individual ingredients**, not the full mix  \n\nIn other words:\n> “Ingredients may be evidence-based” ≠ “the product is proven to work.”\n\n---\n\n## 🧠 4. Criticism from experts and journalists\n​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​\n\n- Many studies are **company-funded and small**\n- Some findings are **inconclusive or minimal**\n- Newer formulations often **lack published independent data**\n\nOverall takeaway from reporting:\n👉 Likely safe, but **not transformative**\n\n---\n\n## 🧾 5. What AG1 probably *does* (realistically)\nBased on current evidence:\n\n✔️ Can help fill nutrient gaps (like a multivitamin)  \n✔️ May slightly affect gut bacteria  \n✔️ Convenient  \n\n❌ Not proven to:\n- boost energy in a meaningful way  \n- improve overall health outcomes  \n- replace a good diet  \n\n---\n\n## 🧩 Bottom line\n- **Yes, there is *some* science behind AG1**\n- But **no, it is not strongly or convincingly backed by high-quality, independent evidence**\n\nA fair summary:\n> AG1 sits somewhere between a **multivitamin + marketing hype**, not a scientifically proven “all-in-one health solution.”\n\n---\n\nIf you want, I can compare AG1 to regular multivitamins or cheaper greens powders—there’s a big difference in value.",
+      "cited_sources": [
+        {
+          "url": "https://drinkag1.com/learn/research/scientific-research",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/apac-us/learn/research/scientific-research",
+          "title": null
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38248338/",
+          "title": null
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1783951/full",
+          "title": null
+        },
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.mdpi.com/1467-3045/46/1/36",
+          "title": null
+        },
+        {
+          "url": "https://www.mdpi.com/2673-9976/29/1/10",
+          "title": null
+        },
+        {
+          "url": "https://www.mdpi.com/1661-3821/3/4/35",
+          "title": null
+        },
+        {
+          "url": "https://en.mymedicwiki.com/index.php/AG1_%28Athletic_Greens_International%2C_Inc.%29",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/health/supplements/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/science",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/health-and-nutrition-pseudoscience/agz-more-shaky-science-makers-ag1",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_d11999be-c1c9-4b09-8e9a-8af2f6a5be37",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "AG1 scientific evidence studies Athletic Greens AG1 research"
+      ]
+    },
+    {
+      "prompt": "Is AG1 backed by science?",
+      "prompt_id": "pr_e18ad447-f0d7-4bd8-bcac-96ffaaf02572",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "Short answer: AG1 has some clinical research cited by its makers, but independent scrutiny is mixed about how robust and independent those findings are.\n\n- What AG1 claims: The company presents multiple gold-standard clinical trials on AG1 Next Gen, including randomized, placebo-controlled designs and studies on nutrient biomarkers and gut microbiome effects. These claims suggest a science-backed basis for certain nutrient delivery and gut-health outcomes.\n- What independent coverage says: Some outlets question the strength and transparency of the evidence, noting that “clinically backed” claims can be vague, and that details or independent replication of results are not always clear in marketing materials. A critique piece also cautions that endorsements from influencers or scientists don’t automatically translate to proven health benefits.\n- How to interpret the evidence: Look for peer-reviewed publications with full methodological details, sample sizes, statistical analyses, and pre-registered protocols. Check whether independent replication exists and if trial designs are consistent with real-world use. \n- Practical take: AG1 may improve nutrient intake where gaps exist and may influence gut microbiota in some contexts, but the magnitude and clinical significance of these effects vary, and robust, independent confirmation is limited in the public materials.\n\nIllustration: A scientists’ lens on “clinically backed” claims would prioritize: (1) peer-reviewed trials on the finished product, (2) diverse populations, (3) transparent reporting of outcomes and safety, (4) replication by independent groups.\nIf you want, I can pull specific independent reviews or summarize the available peer-reviewed trials in more detail.",
+      "cited_sources": [
+        {
+          "url": "https://drinkag1.com/en-eu/learn/research/scientific-research",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/blog/post/ag1-approach-to-clinical-research",
+          "title": null
+        },
+        {
+          "url": "https://www.theverge.com/column/874696/optimizer-ag1-wellness-report-card-greens-powder",
+          "title": null
+        },
+        {
+          "url": "https://www.outsideonline.com/health/nutrition/ag1-supplement/",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/24/ag1-athletic-greens-supplements-green-powder-bryan-johnson/",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/health-and-nutrition-pseudoscience/agz-more-shaky-science-makers-ag1",
+          "title": null
+        },
+        {
+          "url": "https://www.goodhousekeeping.com/uk/product-reviews/health-leisure/a62987964/athletic-greens-review/",
+          "title": null
+        },
+        {
+          "url": "https://wellnessroots.com/athletic-greens-ag1-review-2025/",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.vively.co.nz/post/is-ag1-and-athletic-greens-actually-healthy",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_be66f5a2-1690-4735-876f-11fda3587cff",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Is AG1 backed by science?",
+      "prompt_id": "pr_e18ad447-f0d7-4bd8-bcac-96ffaaf02572",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 is a high-quality nutritional supplement containing many ingredients backed by general nutritional science, but its specific formulation lacks comprehensive, independent clinical trials confirming its overall health claims. While studies (some funded by the company) suggest it can improve gut microbiome composition and fill nutrient gaps, experts emphasize it is not a replacement for a balanced diet.\n\nKey Scientific Aspects of AG1:\n\n- Nutrient Gaps: Studies in 2025 indicated that 12 weeks of AG1 supplementation improved nutrient gaps for vitamins A, C, E, and zinc, particularly in individuals with low fruit/veg intake.\n\n- Gut Health: Research has demonstrated that AG1 can increase the abundance of beneficial bacteria in the gut and boost microbiome health.\n\n- Bioavailability: Studies found the powder form of AG1 has good bioaccessibility for key minerals like Magnesium, Zinc, and Calcium.\n\n- Independent Evidence: While AG1 lists research-backed ingredients, critics note that the formula as a whole has not undergone rigorous, independent, long-term testing, with some claiming it is expensive for the proven benefits.\n\nVerdict:It is considered a \"nutritional safety net\" and is likely safe, but not a \"miracle\" product. It is most beneficial for those with suboptimal diets rather than those who already eat a healthy, nutrient-dense diet.",
+      "cited_sources": [
+        {
+          "url": "https://www.healthline.com/nutrition/athletic-greens-review",
+          "title": null
+        },
+        {
+          "url": "https://www.vively.com.au/post/is-ag1-and-athletic-greens-actually-healthy",
+          "title": null
+        },
+        {
+          "url": "https://www.forbes.com/health/supplements/ag1-review/",
+          "title": null
+        },
+        {
+          "url": "https://www.inc.com/ava-levinson/popular-supplement-maker-hits-back-after-bryan-johnson-says-its-product-is-not-worth-the-money/91294492",
+          "title": null
+        },
+        {
+          "url": "https://www.mdpi.com/2673-9976/29/1/5",
+          "title": null
+        },
+        {
+          "url": "https://www.jandonline.org/article/S2212-2672(25)00667-7/fulltext",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_8f40cd1f-bc8e-43cb-85ba-2c48bf887217",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Tell me about the company behind AG1",
+      "prompt_id": "pr_f2b37ca5-009d-4f22-943d-843f1765c9d1",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "chatgpt",
+      "model_id": "chatgpt-scraper",
+      "response_text": "The company behind AG1 is **Athletic Greens**, a health and wellness brand that specializes in nutritional supplements, primarily focusing on a comprehensive greens powder. AG1 is their flagship product, a daily supplement designed to support overall health by providing a mix of vitamins, minerals, probiotics, and other nutrients.\n\n### Key Points About Athletic Greens:\n1. **Founded in 2010**: The company was established by **Chris Ashenden**, a New Zealander who had been involved in the health and wellness industry. He sought to create a more efficient and holistic way to improve nutritional intake through a single product.\n  \n2. **AG1 Product**: AG1 is a supergreens powder that combines 75+ ingredients, including fruits, vegetables, herbs, probiotics, adaptogens, and more. It’s marketed as a convenient solution for filling in nutritional gaps in the diet and promoting overall health, such as energy, immunity, digestion, and recovery.\n\n3. **Science-Backed Formulation**: Athletic Greens emphasizes that their product is backed by scientific research, and they claim to use high-quality, bioavailable ingredients to maximize absorption and effectiveness.\n\n4. **Sustainability Focus**: Athletic Greens promotes sustainability, using responsibly sourced ingredients and offering eco-friendly packaging. They also focus on making a positive impact through social responsibility initiatives.\n\n5. **Celebrity Endorsements**: Over the years, Athletic Greens has garnered significant attention through endorsements from high-profile figures, including professional athletes, celebrities, and entrepreneurs like Tim Ferriss, Joe Rogan, and others.\n\n6. **Subscription Model**: AG1 is available via a direct-to-consumer subscription model, making it easy for users to maintain a daily regimen.\n\n7. **Global Reach**: Though it started in the United States, Athletic Greens has expanded internationally, with customers around the world enjoying AG1 for its convenience and nutrient profile.\n\nIs there something specific you'd like to know about Athletic Greens or AG1?",
+      "cited_sources": [],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_0853f8c9-479f-4c5f-95d3-4943af3180a6",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    },
+    {
+      "prompt": "Tell me about the company behind AG1",
+      "prompt_id": "pr_f2b37ca5-009d-4f22-943d-843f1765c9d1",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "perplexity",
+      "model_id": "perplexity-scraper",
+      "response_text": "AG1 is the flagship wellness brand behind the single-sku daily greens powder product, commonly marketed as Athletic Greens before rebranding to AG1. The company behind AG1 is a private, growth-focused, global direct-to-consumer player that emphasizes convenience, habit formation, and a broad nutrition foundation rather than a traditional multivitamin.\n\nKey points about the company and its growth:\n\n * Origin and branding: AG1 was founded in 2010 (originally under the Athletic Greens name) by Chris Ashenden, and later rebranded to AG1 to reflect the product’s versatility as a greens, vitamin, and probiotic solution. This branding shift positioned the product as a comprehensive daily nutrition foundation rather than a conventional supplement [sources discussing AG1 genesis and rebranding include general industry profiles and company pages].\n\n * Product model: The company centers on one primary SKU—a greens powder blend that combines vitamins, minerals, probiotics, and plant-based ingredients. The model relies heavily on direct-to-consumer channels, subscription sales, and influencer-driven marketing to sustain growth [common summaries of AG1’s positioning and single-SKU strategy].\n\n * Growth and valuation: After bootstrapping earlier revenues, the company pursued external funding in the early 2020s and achieved a valuation in the vicinity of around $1.2 billion, signaling rapid expansion and scale in the wellness category [coverage in business and industry outlets notes the $1.2B valuation and substantial revenue growth].\n\n * Global operations: While rooted in the U.S. manufacturing and e-commerce ecosystem, AG1 operates with a global footprint, employing staff across numerous countries and servicing markets in North America, Europe, and Asia through a direct-to-consumer approach [industry profiles describe international staffing and multi-region distribution].\n\n * Public perception and scrutiny: AG1 has generated extensive media attention, with endorsements from high-profile figures in health, fitness, and media, alongside critical coverage about claims, science, and regulatory considerations in the supplement space. This mix reflects the broader dynamics of wellness marketing, influencer partnerships, and ongoing debate about evidence for supplement benefits [fortune and other investigative/industry pieces highlight both popularity and scrutiny].\n\nIllustrative snapshot:\n\n * The core product remains a single-d SKU greens powder positioned as an all-in-one daily foundation, with ongoing reformulations and investment in research and marketing to sustain growth in a crowded market. For context, the company has highlighted commitments to science-backed exploration and continued product development as part of its strategy to defend its market position in wellness and longevity narratives [AG1 marketing and product pages, as well as industry analyses].\n\nIf you’d like, I can pull current, specific company details (founders, leadership, latest funding rounds, and recent press) and provide a concise fact-checked summary with sources.",
+      "cited_sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/AG1_(company)",
+          "title": null
+        },
+        {
+          "url": "https://athletechnews.com/ag1-next-gen-launch/",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=V7fKcqDgdB4",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/about-us",
+          "title": null
+        },
+        {
+          "url": "https://www.patigroup.com/p/the-ag1-phenomenon-how-a-single-sku",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/24/ag1-athletic-greens-supplements-green-powder-bryan-johnson/",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/health-and-nutrition-pseudoscience/agz-more-shaky-science-makers-ag1",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=O5xazoeEvys",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iV4b-tbEkIY",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_2df9e748-05ac-4a46-a25b-654120e8898c",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": [
+        "Tell me about the company behind AG1"
+      ]
+    },
+    {
+      "prompt": "Tell me about the company behind AG1",
+      "prompt_id": "pr_f2b37ca5-009d-4f22-943d-843f1765c9d1",
+      "prompt_topic": "Kontextuelle Prompts",
+      "model": "google-ai-overview",
+      "model_id": "google-ai-overview-scraper",
+      "response_text": "AG1 is produced by Athletic Greens, a company founded in 2010 by Chris Ashenden, which has grown into a billion-dollar, subscriber-driven wellness brand. The company specializes in a single, comprehensive powdered supplement designed to support gut health and nutrition. As of 2025, Kat Cole serves as CEO, overseeing a shift toward increased scientific validation and expanded market reach.\n\nKey Details About the Company:\n\n- Origin: Founded in 2010 by Chris Ashenden, the company was born from his personal health journey to create a comprehensive, bioavailable supplement.\n\n- Valuation & Growth: In early 2022, the company achieved a valuation of roughly $\\$1.2$ billion after raising $\\$115$ million.\n\n- Leadership: Kat Cole is the CEO, taking over to lead the company beyond its initial influencer-driven growth.\n\n- Product Focus: The company focuses on one primary product, AG1, which contains 75 ingredients (vitamins, minerals, probiotics, and superfoods) designed as a \"foundational nutrition\" formula.\n\n- Quality Standards: AG1 is manufactured in TGA-registered facilities (New Zealand) and holds NSF Certified for Sport®, confirming it is free from banned substances and tested for quality.\n\n- Marketing Strategy: Originally heavily promoted via influencer marketing and podcasts, the brand has shifted toward emphasizing scientific, third-party validation.\n\nBackground Information:\n\n- The Founder: Chris Ashenden (\"Chris the Kiwi\") created the product, which was initially bootstrapped before receiving significant institutional investment.\n\n- Controversy & Investigation: The company and its founder have been subjects of scrutiny regarding marketing claims and product, with an investigative podcast, Powder Keg, analyzing the company's, growth, marketing, and the product's nutritional value.\n\n- Rebrand: The company updated its brand identity to \"AG1\" to better reflect the, now, comprehensive nature of its product, working with The New Company.\n\n- Partnerships: AG1 has partnered with organizations like No Kid Hungry to support its mission of providing nutritional support.",
+      "cited_sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=rrQiHbeFMrI",
+          "title": null
+        },
+        {
+          "url": "https://newsroom.co.nz/2025/01/30/new-ag1-boss-promises-better-science-greater-transparency/",
+          "title": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rf1yfu13gX8",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/about-us",
+          "title": null
+        },
+        {
+          "url": "https://businessmodelcanvastemplate.com/blogs/owners/athletic-greens-who-owns",
+          "title": null
+        },
+        {
+          "url": "https://athletechnews.com/ag1-makes-ceo-change-as-founder-chris-ashenden-steps-down/",
+          "title": null
+        },
+        {
+          "url": "https://www.mcgill.ca/oss/article/critical-thinking-health-and-nutrition/you-probably-dont-need-green-ag1-smoothie",
+          "title": null
+        },
+        {
+          "url": "https://www.facebook.com/MelanieReidInvestigates/videos/listen-now-ag1-is-the-billion-dollar-supplement-company-half-the-world-has-never/1088503502950252/",
+          "title": null
+        },
+        {
+          "url": "https://drinkag1.com/en-nz/about-us",
+          "title": null
+        },
+        {
+          "url": "https://fortune.com/2025/01/30/ag1-supplements-ceo-kat-cole-athletic-greens/",
+          "title": null
+        },
+        {
+          "url": "https://www.yahoo.com/lifestyle/articles/battle-over-ag1-influencer-famous-110000347.html",
+          "title": null
+        },
+        {
+          "url": "https://www.innerbody.com/athletic-greens-review",
+          "title": null
+        }
+      ],
+      "timestamp": "2026-04-22",
+      "chat_id": "ch_5157c9d4-c7d9-4b81-8341-49703d8cb0eb",
+      "brands_mentioned": [
+        {
+          "id": "kw_cffec689-895e-4243-8a3f-3ff1fc575f77",
+          "name": "AG1",
+          "position": 1
+        }
+      ],
+      "queries": []
+    }
+  ]
+}
