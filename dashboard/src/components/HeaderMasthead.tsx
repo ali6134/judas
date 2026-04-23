@@ -11,11 +11,11 @@ export function HeaderMasthead({
     <header className="relative paper-forest overflow-hidden border-b border-brass-800/70">
       {/* Watermark helmet bleeding off right edge */}
       <div
-        className="pointer-events-none absolute -right-24 -top-16 text-parchment-50/[0.04] anim-fade-in"
+        className="pointer-events-none absolute -right-32 -top-12 text-parchment-50/[0.045] anim-fade-in"
         style={{ animationDuration: "1.2s" }}
         aria-hidden
       >
-        <HelmetLogo size={560} interactive={false} />
+        <HelmetLogo size={620} interactive={false} negativeColor="transparent" />
       </div>
 
       {/* Corner classification stamp */}
@@ -42,7 +42,7 @@ export function HeaderMasthead({
       <div className="relative z-10 mx-auto flex max-w-[1400px] items-center gap-12 px-10 py-14">
         {/* Primary helmet */}
         <div className="text-parchment-50 shrink-0 anim-helmet">
-          <HelmetLogo size={148} />
+          <HelmetLogo size={180} />
         </div>
 
         {/* Wordmark block */}
