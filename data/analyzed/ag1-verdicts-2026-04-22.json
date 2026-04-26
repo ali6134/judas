@@ -1,26 +1,29 @@
 {
   "brand": "AG1",
   "phase": "Phase 3 — Comparison",
-  "analyzed_at": "2026-04-23",
+  "analyzed_at": "2026-04-26",
   "source_file": "data/analyzed/ag1-facts-2026-04-22.json",
   "ground_truth_file": "ground-truth/ag1.json",
   "comparison_prompt": "prompts/fact-comparison.md",
+  "ground_truth_revision_notes": [
+    "2026-04-26 — Headquarters fact corrected: Carson City, Nevada is the actual HQ (was previously listed as 'fully remote'). Verdicts re-run."
+  ],
   "total_responses": 38,
   "total_claims": 110,
   "verdict_counts": {
-    "correct": 87,
-    "false": 7,
-    "hallucinated": 3,
+    "correct": 91,
+    "false": 5,
     "unverifiable": 2,
-    "outdated": 11
+    "outdated": 11,
+    "hallucinated": 1
   },
   "per_category_verdicts": {
     "former_name": {
       "correct": 27
     },
     "headquarters": {
-      "false": 3,
-      "hallucinated": 2
+      "false": 1,
+      "correct": 4
     },
     "company_registration": {
       "unverifiable": 1
@@ -93,16 +96,16 @@
     "perplexity": {
       "total_severity_weighted": 0,
       "total_claims": 32,
-      "correct": 28,
-      "wrong": 4,
-      "accuracy_pct": 87.5
+      "correct": 30,
+      "wrong": 2,
+      "accuracy_pct": 93.8
     },
     "google-ai-overview": {
       "total_severity_weighted": 0,
       "total_claims": 42,
-      "correct": 31,
-      "wrong": 9,
-      "accuracy_pct": 73.8
+      "correct": 33,
+      "wrong": 7,
+      "accuracy_pct": 78.6
     }
   },
   "responses": [
@@ -130,10 +133,10 @@
           "claim_text": "is headquartered in Auckland, New Zealand",
           "fact_category": "headquarters",
           "claimed_value": "Auckland, New Zealand",
-          "ground_truth_value": "Fully remote, no formal headquarters",
+          "ground_truth_value": "Carson City, Nevada",
           "verdict": "false",
-          "severity": 4,
-          "reasoning": "Claimed 'Auckland, New Zealand'; AG1 has no formal HQ and is fully remote — this is a commonly fabricated false value."
+          "severity": 5,
+          "reasoning": "Auckland is the founder's country of origin, not the HQ. Ground truth: Carson City, Nevada."
         }
       ]
     },
@@ -152,19 +155,19 @@
           "claim_text": "AG1 is headquartered in Carson City, Nevada",
           "fact_category": "headquarters",
           "claimed_value": "Carson City, Nevada",
-          "ground_truth_value": "Fully remote, no formal headquarters",
-          "verdict": "false",
-          "severity": 4,
-          "reasoning": "Claimed 'Carson City, Nevada'; AG1 has no formal HQ and is fully remote — this is a commonly fabricated false value."
+          "ground_truth_value": "Carson City, Nevada",
+          "verdict": "correct",
+          "severity": 5,
+          "reasoning": "Matches ground truth HQ — Carson City, Nevada."
         },
         {
           "claim_text": "at 3064 Silver Sage Drive, Suite 150",
           "fact_category": "headquarters",
           "claimed_value": "3064 Silver Sage Drive, Suite 150, Carson City, Nevada",
-          "ground_truth_value": "Fully remote, no formal headquarters",
-          "verdict": "hallucinated",
+          "ground_truth_value": "Carson City, Nevada",
+          "verdict": "correct",
           "severity": 5,
-          "reasoning": "Specific street address '3064 Silver Sage Dr, Suite 150, Carson City' is fabricated — AG1 has no formal HQ."
+          "reasoning": "Matches ground truth HQ — full Carson City, Nevada address (3064 Silver Sage Dr, Suite 150)."
         }
       ]
     },
@@ -192,19 +195,19 @@
           "claim_text": "primarily headquartered in Carson City, Nevada",
           "fact_category": "headquarters",
           "claimed_value": "Carson City, Nevada",
-          "ground_truth_value": "Fully remote, no formal headquarters",
-          "verdict": "false",
-          "severity": 4,
-          "reasoning": "Claimed 'Carson City, Nevada'; AG1 has no formal HQ and is fully remote — this is a commonly fabricated false value."
+          "ground_truth_value": "Carson City, Nevada",
+          "verdict": "correct",
+          "severity": 5,
+          "reasoning": "Matches ground truth HQ — Carson City, Nevada."
         },
         {
           "claim_text": "main corporate office at 3064 Silver Sage Dr, Suite 150, Carson City, NV 89701, United States",
           "fact_category": "headquarters",
           "claimed_value": "3064 Silver Sage Dr, Suite 150, Carson City, NV 89701",
-          "ground_truth_value": "Fully remote, no formal headquarters",
-          "verdict": "hallucinated",
+          "ground_truth_value": "Carson City, Nevada",
+          "verdict": "correct",
           "severity": 5,
-          "reasoning": "Specific street address '3064 Silver Sage Dr, Suite 150, Carson City' is fabricated — AG1 has no formal HQ."
+          "reasoning": "Matches ground truth HQ — full Carson City, Nevada address (3064 Silver Sage Dr, Suite 150)."
         },
         {
           "claim_text": "Company Name: Athletic Greens USA Inc.",

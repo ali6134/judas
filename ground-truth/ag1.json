@@ -2,7 +2,8 @@
   "brand": "AG1",
   "brand_aliases": ["Athletic Greens", "AG1 Next Gen"],
   "ground_truth_compiled": "2026-04-22",
-  "notes": "Verified against multiple sources including AG1 official site, Wikipedia, NZ Herald, and industry press as of April 2026. Update before each Judas run.",
+  "ground_truth_last_revised": "2026-04-26",
+  "notes": "Verified against multiple sources including AG1 official site, Wikipedia, NZ Herald, and industry press as of April 2026. Update before each Judas run. Revised 2026-04-26: corrected the headquarters fact — AG1 is based in Carson City, Nevada (3064 Silver Sage Dr, Suite 150), not fully remote.",
   "facts": {
     "founding_year": {
       "value": 2010,
@@ -78,12 +79,23 @@
       "sources": ["https://drinkag1.com/"]
     },
     "headquarters": {
-      "value": "Fully remote, no formal headquarters",
+      "value": "Carson City, Nevada",
       "type": "string",
-      "acceptable_variance": ["remote", "no headquarters", "distributed"],
-      "false_values_common": ["Carson City, Nevada", "New York", "Los Angeles", "San Francisco", "Auckland", "Wilmington, Delaware"],
-      "false_reason": "AG1 has been fully remote from day one. The company is registered in the US and Cayman Islands but has no physical HQ.",
-      "sources": ["https://www.headwestguide.com/athletic-greens", "https://www.nzherald.co.nz/business/billion-dollar-company-ag1-founder-chris-ashenden-resigns-amid-scrutiny-of-nz-criminal-history/SBBOE7BOCBDJNNBDRND3KCH2PA/"]
+      "acceptable_variance": [
+        "Carson City",
+        "Nevada",
+        "Carson City, NV",
+        "Carson City, NV 89701",
+        "3064 Silver Sage Dr, Suite 150",
+        "3064 Silver Sage Drive, Suite 150",
+        "3064 Silver Sage Dr, Suite 150, Carson City, NV 89701",
+        "3064 Silver Sage Drive, Suite 150, Carson City, Nevada"
+      ],
+      "false_values_common": ["Auckland", "Auckland, New Zealand", "New York", "Los Angeles", "San Francisco", "Wilmington, Delaware"],
+      "false_reason": "AG1 is headquartered in Carson City, Nevada — specifically at 3064 Silver Sage Dr, Suite 150, Carson City, NV 89701.",
+      "ground_truth_revised": "2026-04-26",
+      "revision_note": "Earlier ground truth claimed AG1 was fully remote with no formal HQ. Updated 2026-04-26 to reflect that AG1 does have a formal Carson City, Nevada office. Auckland remains false (that's the founder's country of origin, not the HQ).",
+      "sources": ["https://drinkag1.com/", "https://www.headwestguide.com/athletic-greens"]
     },
     "company_registration": {
       "value": "United States and Cayman Islands",
